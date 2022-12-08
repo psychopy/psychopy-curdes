@@ -28,6 +28,9 @@ urls.homepage = "https://github.com/psychopy/psychopy-curdes"
 urls.changelog = "https://github.com/psychopy/psychopy-curdes/blob/main/CHANGELOG.txt"
 urls.documentation = "https://pages.github.com/psychopy/psychopy-curdes"
 urls.repository = "https://github.com/psychopy/psychopy-curdes"
+dependencies = [
+  "pyserial",
+]
 
 [tool.setuptools.packages.find]
 where = ["",]
